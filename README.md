@@ -1,5 +1,5 @@
 # Spotify-Data-ETL-Pipeline-using-AWS
-Implement an ETL (Extract, Transform, Load) pipeline using Python and AWS services extracting data from spotify API
+Implemented an ETL (Extract, Transform, Load) pipeline using Python and AWS services to extract data from the Spotify API.
 
 ## Overview
 
