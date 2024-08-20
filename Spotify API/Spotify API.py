@@ -2,7 +2,8 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 import pandas as pd
 
-client_credentials_manager = SpotifyClientCredentials(client_id="89e1bd40e26a4e5f9cdddac1aadd088a", client_secret="2c728c45a8ba40e68081c6ae5c51e60d")
+#Edit the client_id and client_secret value provided by spotify API
+client_credentials_manager = SpotifyClientCredentials(client_id="", client_secret="")
 sp = spotipy.Spotify(client_credentials_manager = client_credentials_manager)
 playlist_link = "https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF"
 playlist_URI = playlist_link.split("/")[-1]
